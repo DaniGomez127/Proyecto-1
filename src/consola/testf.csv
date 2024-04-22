@@ -1,0 +1,7 @@
+description,cajero_nombre,cajero_contacto,pago_id,pago_monto,pago_metodo,pago_detalles,pago_confirmado,expected_confirmed,expected_message
+"Compra de Mona Lisa","Juan Perez","juan.perez@example.com","PID123",1000000,"Tarjeta","Pago con tarjeta VISA",false,true,"Pago confirmado"
+"Venta de Escultura Moderna","Ana Gómez","ana.gomez@example.com","PID124",200000,"Efectivo","Pago en efectivo",true,true,"Pago confirmado"
+"Adquisición de Fotografía Antigua","Carlos Ruiz","carlos.ruiz@example.com","PID125",50000,"Transferencia","Transferencia Bancaria BBVA",false,false,"Pago pendiente de confirmación"
+"Subasta de Obra de Arte Digital","Laura Martínez","laura.martinez@example.com","PID126",750000,"PayPal","Pago vía PayPal",true,true,"Pago confirmado"
+"Compra de Impresión Vintage","Sofía Castro","sofia.castro@example.com","PID127",120000,"Tarjeta","Pago con tarjeta MasterCard",false,true,"Pago confirmado"
+"Venta de Pintura Clásica","Roberto Vela","roberto.vela@example.com","PID128",300000,"Cheque","Pago con cheque Banco Santander",true,true,"Pago confirmado"
