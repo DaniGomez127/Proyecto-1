@@ -1,5 +1,8 @@
 package logica;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class usuario {
 
 
@@ -11,10 +14,15 @@ public class usuario {
     private String ciudad;
     private String codigoPostal;
     private String pais;
+    private List<pieza> piezasCompradas;  // Piezas que ha comprado el usuario
+    private List<transaccion> historialCompras; // Historial de compras
+    private boolean esCajero;
+    private boolean esComprador;
+    private boolean esAdministrador;
 
 
     public usuario(String nombre, String contraseña, String email, String telefono, 
-                   String direccion, String ciudad, String codigoPostal, String pais) {
+                   String direccion, String ciudad, String codigoPostal, String pais,boolean esCajero,boolean esComprador, boolean esAdministrador ) {
         this.nombre = nombre;
         this.contraseña = contraseña;
         this.email = email;
@@ -23,6 +31,11 @@ public class usuario {
         this.ciudad = ciudad;
         this.codigoPostal = codigoPostal;
         this.pais = pais;
+        this.piezasCompradas = new ArrayList<>();
+        this.historialCompras = new ArrayList<>();
+        this.esCajero = esCajero;
+        this.esComprador = esComprador;
+        this.esAdministrador = esAdministrador;
     }
 
 
@@ -89,6 +102,60 @@ public class usuario {
     public void setPais(String pais) {
         this.pais = pais;
     }
+    
+    
+    public boolean esCajero() {
+        return esCajero;
+    }
+    
+    //aca es la parte de historial  comprador
+ // Método para agregar pieza comprada
+    public void agregarPiezaComprada(pieza pieza) {
+        this.piezasCompradas.add(pieza);
+    }
+
+    // Método para agregar una transacción al historial de compras
+    public void agregarTransaccion(transaccion trans) {
+        this.historialCompras.add(trans);
+        agregarPiezaComprada(trans.getPieza());
+    }
+
+    // Getters y Setters
+
+    public List<pieza> getPiezasCompradas() {
+        return piezasCompradas;
+    }
+
+    public List<transaccion> getHistorialCompras() {
+        return historialCompras;
+    }
+
+    // Método para calcular el valor total de las piezas compradas
+    public double calcularValorColeccion() {
+        double total = 0.0;
+        for (pieza p : piezasCompradas) {
+            total += p.getPrecioVenta(); 
+        }
+        return total;
+    }
+    private List<transaccion> transacciones = new ArrayList<>();
+
+    public List<transaccion> getTransacciones() {
+        return transacciones;
+    }
+    //ESTA ES LA PARTE DE ROL COMPRADOR
+    
+    
+
+    public boolean esComprador() {
+        return esComprador;
+    }
+    
+    
+    public boolean esAdministrador() {
+        return esAdministrador;
+    }
+
 
 
 

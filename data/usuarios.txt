@@ -1,0 +1,5 @@
+daniel,1234,danui@gmail.com,3223243841,calle23#233,bogota,11172,colombia,false,false,true
+null,1234,rodri@gmail.com,324444444,calle1234#22,choco,1235565,colombia,true,false,false
+admin,adminpass,admin@example.com,123456789,Admin Street,Admin City,00000,Country,false,false,true
+juan,1234,juan@gmail.com,3222323233,calle2#2343,bogota,1232313,colombia,false,true,false
+pepe,1234,pe@gmail.com,3232343434,calle675#54,medllin,34424,colombia,false,true,false

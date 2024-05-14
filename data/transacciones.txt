@@ -1,0 +1,2 @@
+trans001,2021-01-01,daniel,idPieza001,100.50
+trans002,2021-01-02,daniel,idPieza002,200.75

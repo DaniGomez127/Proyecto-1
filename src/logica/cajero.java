@@ -2,24 +2,23 @@ package logica;
 
 
 
-public class cajero {
+public class cajero extends usuario{
 
     private String nombre;
     private String contacto;
     
     // Constructor
-    public cajero(String nombre, String contacto) {
-        this.nombre = nombre;
-        this.contacto = contacto;
+    public cajero(String nombre, String contraseña, String email, String telefono, String direccion, String ciudad, String codigoPostal, String pais) {
+        super(nombre, contraseña, email, telefono, direccion, ciudad, codigoPostal, pais, true, false, false);
     }
 
  
     public boolean confirmarPago(pago pago) {
         if (pago != null && !pago.isPagoConfirmado()) {
-            pago.confirmar(); 
-            return true; 
+            pago.confirmar();
+            return true;
         }
-        return false; 
+        return false;
     }
 
 
@@ -37,6 +36,10 @@ public class cajero {
 
     public void setContacto(String contacto) {
         this.contacto = contacto;
+    }
+    
+    public void registrarOfertaEnSubasta(oferta oferta, subasta subasta) {
+        subasta.registrarOferta(oferta);
     }
 
    

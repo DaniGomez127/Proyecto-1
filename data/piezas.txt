@@ -1,0 +1,19 @@
+id4,2.1,1.4,0.5,22.0,Pieza D,false,COD126,2018,Monet,Una descripción más de la pieza,1200.5,2021-04-15,true,Propietario D,2024-05-12
+id5,2.0,1.5,20.0,30.0,hola,true,cod721,2021,andres,obra maestra,30000.0,2024-06-14,true,Van Gogh,2023-04-05
+id1,2.0,1.5,0.5,20.0,Pieza Test,true,COD123,2021,Test Artist,Descripción test,0.0,,true,Original Owner,2023-12-31
+id1,2.0,1.5,0.5,20.0,Pieza Test,true,COD123,2021,Test Artist,Descripción test,0.0,,true,Original Owner,2023-12-31
+pieza1,2.0,1.0,1.0,10.0,Pieza Test,true,COD123,2021,Test Artist,Descripción test,0.0,,true,Original Owner,2023-12-31
+pieza1,2.0,1.0,1.0,10.0,Pieza Test,true,COD123,2021,Test Artist,Descripción test,0.0,,true,Original Owner,2023-12-31
+id1,2.0,1.5,0.5,20.0,Pieza Test,true,COD123,2021,Test Artist,Descripción test,0.0,,true,Original Owner,2023-12-31
+id1,2.0,1.5,0.5,20.0,Pieza Test,true,COD123,2021,Test Artist,Descripción test,0.0,,true,Original Owner,2023-12-31
+id1,2.0,1.5,0.5,20.0,Pieza Test,true,COD123,2021,Test Artist,Descripción test,0.0,,true,Original Owner,2023-12-31
+id1,2.0,1.5,0.5,20.0,Pieza Test,true,COD123,2021,Test Artist,Descripción test,0.0,,true,Original Owner,2023-12-31
+id1,2.0,1.5,0.5,20.0,Pieza Test,true,COD123,2021,Test Artist,Descripción test,0.0,,true,Original Owner,2023-12-31
+pieza1,2.0,1.0,1.0,10.0,Pieza Test,true,COD123,2021,Test Artist,Descripción test,0.0,,true,Original Owner,2023-12-31
+id1,2.0,1.5,0.5,20.0,Pieza Test,true,COD123,2021,Test Artist,Descripción test,0.0,,true,Original Owner,2023-12-31
+id1,2.0,1.5,0.5,20.0,Pieza Test,true,COD123,2021,Test Artist,Descripción test,0.0,,true,Original Owner,2023-12-31
+id1,2.0,1.5,0.5,20.0,Pieza Test,true,COD123,2021,Test Artist,Descripción test,0.0,,true,Original Owner,2023-12-31
+id1,2.0,1.5,0.5,20.0,Pieza Test,true,COD123,2021,Test Artist,Descripción test,0.0,,true,Original Owner,2023-12-31
+id1,2.0,1.5,0.5,20.0,Pieza Test,true,COD123,2021,Test Artist,Descripción test,0.0,,true,Original Owner,2023-12-31
+pieza1,2.0,1.0,1.0,10.0,Pieza Test,true,COD123,2021,Test Artist,Descripción test,0.0,,true,Original Owner,2023-12-31
+id6,2.2,3.45,43.0,50.0,cuadro,true,cod123,2004,Picasso,Obra maestra,200000.0,,false,daniel,2024-05-13

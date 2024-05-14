@@ -11,12 +11,18 @@ public class subasta {
     private pieza pieza;
     private List<oferta> ofertas;
     private boolean estaActiva; 
+    private double valorInicial;
+    private double valorMinimo;
+    
 
-    public subasta(String id, pieza pieza) {
+    public subasta(String id, pieza pieza, double valorInicial, double valorMinimo) {
         this.id = id;
         this.pieza = pieza;
+        this.valorInicial = valorInicial;
+        this.valorMinimo = valorMinimo;
         this.ofertas = new ArrayList<>();
         this.estaActiva = true;
+        
     }
 
 
@@ -27,8 +33,12 @@ public class subasta {
             throw new IllegalStateException("La subasta no está activa.");
         }
     }
+    
 
- 
+    public boolean verificarValorMinimo() {
+        return ofertas.stream().anyMatch(oferta -> oferta.getValorOferta() >= valorMinimo);
+    }
+
     public void cerrarSubasta() {
         estaActiva = false;
     }
@@ -65,6 +75,14 @@ public class subasta {
 
     public void setEstaActiva(boolean estaActiva) {
         this.estaActiva = estaActiva;
+    }
+    
+    public double getValorInicial() {
+        return valorInicial;
+    }
+
+    public double getValorMinimo() {
+        return valorMinimo;
     }
 
 

@@ -23,7 +23,6 @@ public class operador {
     }
 
     public void registrarOfertaEnSubasta(oferta oferta, subasta subasta) {
-
         subasta.registrarOferta(oferta);
     }
 

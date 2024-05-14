@@ -1,0 +1,6 @@
+Van Gogh;id1,2.0,1.5,0.5,20.0,Pieza A,true,COD123,2021,Van Gogh,Descripción breve de la pieza,1200.50,2021-04-15,true,Propietario A,2024-04-15
+Picasso;id2,1.8,1.3,0.4,15.0,Pieza B,false,COD124,2019,Picasso,Descripción breve de otra pieza,1200.50,2021-04-15,true,Propietario B,2024-04-15
+Da Vinci;id3,2.2,1.6,0.6,25.0,Pieza C,true,COD125,2020,Da Vinci,Descripción adicional de la pieza,1200.50,2021-04-15,true,Propietario C,2024-04-15
+Monet;id4,2.1,1.4,0.5,22.0,Pieza D,false,COD126,2018,Monet,Una descripción más de la pieza,1200.50,2021-04-15,true,Propietario D,2024-05-12
+Kahlo;id5,2.0,1.5,20.0,30.0,hola,true,cod721,2021,andres,obra maestra,20000.0,,true,Van Gogh,2023-04-05
+Van Gogh;id7,3.0,2.5,0.5,30.0,Pieza f,true,COD128,2018,Van Gogh,Descripción breve de la pieza,1200.50,2022-04-15,true,Propietario A,2025-04-15

@@ -40,7 +40,7 @@ public class inventario {
 
 
 	public static pieza buscarPiezaPorId(String pieceId) {
-		// TODO Auto-generated method stub
+	
 		return null;
 	}
     

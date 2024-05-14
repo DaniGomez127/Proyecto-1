@@ -7,7 +7,7 @@ public class pago {
     private String detalles;
     private boolean pagoConfirmado;
 
-    // Make sure this constructor exists with the right parameters
+
     public pago(String id, double monto, String metodo, String detalles, boolean pagoConfirmado) {
         this.id = id;
         this.monto = monto;

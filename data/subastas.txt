@@ -1,0 +1,2 @@
+prueba1,id5,true,20.0,2000000.0
+prueba21,id6,true,500.0,50000.0
