@@ -1,7 +1,7 @@
 package logica;
 
-import java.util.List;
 import java.util.ArrayList;
+import java.util.List;
 
 public class pieza {
 
@@ -18,22 +18,22 @@ public class pieza {
     private String descripcion;
     private usuario propietario;
     private List<transaccion> historialTransacciones; // Historial de transacciones
-    private double precioVenta;  // Añadir este campo para almacenar el precio de venta
+    private double precioVenta;  
     private String fechaVenta;
     private boolean enConsignacion;
     private String propietarioReal;
     private String fechaFinConsignacion;
     private boolean disponibleParaVentaFija;
     private boolean bloqueada;
+    private String imagenRuta; // Campo para almacenar la ruta de la imagen
 
-    public pieza() {
-    }
-
-
+    // Constructor actualizado para incluir la ruta de la imagen
     public pieza(String id, double altura, double anchura, double profundidad,
                  double peso, String nombre, boolean estaEnExhibicion,
                  String codigoIdentificador, int anoCreacion, String autor,
-                 String descripcion, usuario propietario,double precioVenta, String fechaVenta,boolean enConsignacion,String propietarioReal,String fechaFinConsignacion ) {
+                 String descripcion, usuario propietario, double precioVenta,
+                 String fechaVenta, boolean enConsignacion, String propietarioReal,
+                 String fechaFinConsignacion, String imagenRuta) {
         this.id = id;
         this.altura = altura;
         this.anchura = anchura;
@@ -49,15 +49,21 @@ public class pieza {
         this.historialTransacciones = new ArrayList<>();
         this.precioVenta = precioVenta;
         this.fechaVenta = fechaVenta;
-        this.enConsignacion=enConsignacion;
-        this.propietarioReal=propietarioReal;
-        this.fechaFinConsignacion=fechaFinConsignacion;
-        
-      
+        this.enConsignacion = enConsignacion;
+        this.propietarioReal = propietarioReal;
+        this.fechaFinConsignacion = fechaFinConsignacion;
+        this.imagenRuta = imagenRuta; // Inicializar la ruta de la imagen
+    }
 
+    // Getters y setters adicionales
+    public String getImagenRuta() {
+        return imagenRuta;
+    }
+
+    public void setImagenRuta(String imagenRuta) {
+        this.imagenRuta = imagenRuta;
     }
     
-
 
     public String getId() {
         return id;
@@ -119,8 +125,10 @@ public class pieza {
                peso + "," + nombre + "," + estaEnExhibicion + "," +
                codigoIdentificador + "," + anoCreacion + "," + autor + "," +
                descripcion + "," + precioVenta + "," + fechaVenta + "," +
-               enConsignacion + "," + propietarioReal + "," + fechaFinConsignacion;
+               enConsignacion + "," + propietarioReal + "," + fechaFinConsignacion + "," +
+               imagenRuta;
     }
+
     
  // Agregar una transacción al historial
     public void agregarHistorialTransaccion(transaccion transaccion) {
@@ -188,10 +196,17 @@ public class pieza {
     public void desbloquear() {
         this.bloqueada = false;
     }
+    
+  
+
+    public void setPropietarioReal(String propietarioReal) {
+        this.propietarioReal = propietarioReal;
+    }
 
 
 
     
 
 }
+
 

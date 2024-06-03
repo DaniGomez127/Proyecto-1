@@ -18,7 +18,7 @@ public class UsuarioTest {
     @Before
     public void setUp() {
         usuarioComprador = new usuario("comprador", "password", "comprador@example.com", "1234567890", "Calle Compra 123", "Ciudad", "00000", "País", false, true, false);
-        piezaComprada = new pieza("id1", 2.0, 1.5, 0.5, 20.0, "Pieza Prueba", true, "COD123", 2021, "Artista", "Descripción de prueba", null, 1500.0, "2024-05-20", false, "Propietario Original", "2024-12-31");
+        piezaComprada = new pieza("id1", 2.0, 1.5, 0.5, 20.0, "Pieza Prueba", true, "COD123", 2021, "Artista", "Descripción de prueba", null, 1500.0, "2024-05-20", false, "Propietario Original", "2024-12-31", null);
         transaccionCompra = new transaccion("trans1", new Date(), "Galería", 1500.0, usuarioComprador, piezaComprada);
     }
 

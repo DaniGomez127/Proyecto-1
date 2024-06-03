@@ -15,15 +15,15 @@ public class PiezaTest {
 
     @Before
     public void setUp() {
-        testPieza = new pieza("id1", 2.0, 1.5, 0.5, 20.0, "Pieza Test", true, "COD123", 2021, "Test Artist", "Descripción test", null, 1500.0, "2024-05-15", true, "Original Owner", "2024-12-31");
+        testPieza = new pieza("id1", 2.0, 1.5, 0.5, 20.0, "Pieza Test", true, "COD123", 2021, "Test Artist", "Descripción test", null, 1500.0, "2024-05-15", true, "Original Owner", "2024-12-31", null);
     }
 
     @Test
     public void testCambioEstadoExhibicion() {
-        // Verificar estado inicial
+     
         assertTrue("Inicialmente debería estar en exhibición", testPieza.isEstaEnExhibicion());
         
-        // Cambiar estado y verificar
+      
         testPieza.cambiarEstadoExhibicion(false);
         assertFalse("Debería poder cambiar el estado de exhibición", testPieza.isEstaEnExhibicion());
     }

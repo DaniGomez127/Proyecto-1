@@ -1,5 +1,14 @@
-daniel,1234,danui@gmail.com,3223243841,calle23#233,bogota,11172,colombia,false,false,true
-null,1234,rodri@gmail.com,324444444,calle1234#22,choco,1235565,colombia,true,false,false
+rodrigo,1234,rodrigo@gmail.com,3123213213,calle23#2545,Bogota,213123,Colombia,false,true,false,0.0,null
+fernando,1234,fern@gmail.com,727272727,calle23#23,Bogogta,11171,Colombia,false,true,false,500000.0,fernando;5437263835473625;07/28;784;500000.0;784
+antonio,1234,antonio@gmail.com,23373737,calle#22,Bogota,282828,Colombia,false,true,false,1000000.0,antonio;51234567890098765;02/27;235;1000000.0;235
 admin,adminpass,admin@example.com,123456789,Admin Street,Admin City,00000,Country,false,false,true
-juan,1234,juan@gmail.com,3222323233,calle2#2343,bogota,1232313,colombia,false,true,false
-pepe,1234,pe@gmail.com,3232343434,calle675#54,medllin,34424,colombia,false,true,false
+juan,1234,juan@gmail.com,3222323233,calle2#2343,bogota,1232313,colombia,false,true,false,1.0E7,juan;5362836273649876;07/27;011;1.0E7;011,logica.transaccion@1ccf9e87
+roberto,1234,roberto@gmail.com,3888473772,cr4#323,Cartagena,35776,Colombia,false,true,false,10000.0,roberto;4536273456789098;02/29;234;10000.0;234
+sofia,1234,sofia@gmail.com,737373737,calle34#2,bogota,12312612,colombia,false,true,false,6000000.0,sofia;5987654398765432;05/29;373;6000000.0;373
+juanito,1234,juanito@gmail.com,33213213,calle23##2332,bogota,123444,colombia,true,false,false
+daniel,1234,danui@gmail.com,3223243841,calle23#233,bogota,11172,colombia,false,false,true
+jesus,1234,jesus@gmail.com,3123123123,calle123#12,Choco,12323,Colombia,false,true,false,0.0,null
+raul,1234,raul@gmail.com,2323233,calle23#33,Bogota,123123,colombia,false,true,false,5000000.0,raul;4123456788767542;09/29;131;5000000.0;131,logica.transaccion@33d89ae2,logica.transaccion@58c000b3,logica.transaccion@31d67379,logica.transaccion@518de862,logica.transaccion@2675673b,logica.transaccion@7e682ede,logica.transaccion@7ca7d7d1,logica.transaccion@4257fedf,logica.transaccion@4f161511,logica.transaccion@7037ccf3,logica.transaccion@32ec947b,logica.transaccion@4f3035ff,logica.transaccion@30f11f95,logica.transaccion@7eef1d2c,logica.transaccion@28f611c6,logica.transaccion@66a746ea,logica.transaccion@5e12e01c,logica.transaccion@5812908f,logica.transaccion@40f2c26a,logica.transaccion@1cbe5c88,logica.transaccion@55654d03,logica.transaccion@193f29c8
+null,1234,martin@gmail.com,23132131,calle#34,Bogota,23231,Colombia,true,false,false
+pedro,1234,pdro@gmail.com,272635252,cr23#323,Pereira,23323,Colombia,false,true,false,30000.0,pedro;4637485948736524;02/26;356;30000.0;356
+pepe,1234,pe@gmail.com,3232343434,calle675#54,medllin,34424,colombia,false,true,false,100000.0,Pepe;4093550026789456;03/25;742;100000.0;742,logica.transaccion@4f885917,logica.transaccion@213c1672,logica.transaccion@5ece5a03,logica.transaccion@3e5f497b,logica.transaccion@3312ff46,logica.transaccion@72dce0d0

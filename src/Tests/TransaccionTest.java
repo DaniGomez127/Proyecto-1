@@ -28,8 +28,8 @@ public class TransaccionTest {
     @Before
     public void setUp() throws Exception {
         galeria = new galeria();
-        pieza = new pieza("id1", 1.0, 1.0, 1.0, 10.0, "Test Pieza", true, "COD123", 2020, "Test Artist", "Descripción de prueba", null, 1000.0, "", false, "Owner Test", "2023-12-31");
-        // Asegúrate de que el usuario es instanciado como comprador
+        pieza = new pieza("id1", 1.0, 1.0, 1.0, 10.0, "Test Pieza", true, "COD123", 2020, "Test Artist", "Descripción de prueba", null, 1000.0, "", false, "Owner Test", "2023-12-31", null);
+   
         comprador = new comprador("comprador", "securePass", "comprador@example.com", "1234567890", "123 Test Street", "Test City", "00000", "Test Country");
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
         Date fecha = sdf.parse("2024-01-01");
@@ -65,7 +65,7 @@ public class TransaccionTest {
   
     public void testAgregarPiezaEnConsignacionComoAdmin() {
         usuario admin = new usuario("admin", "adminPass", "admin@example.com", "1234567890", "Admin Street", "Admin City", "00000", "Country", false, false, true);
-        pieza testPieza = new pieza("pieza1", 2.0, 1.0, 1.0, 10.0, "Pieza Test", true, "COD123", 2021, "Test Artist", "Descripción test", null, 0.0, "", true, "Original Owner", "2023-12-31");
+        pieza testPieza = new pieza("pieza1", 2.0, 1.0, 1.0, 10.0, "Pieza Test", true, "COD123", 2021, "Test Artist", "Descripción test", null, 0.0, "", true, "Original Owner", "2023-12-31", null);
         assertTrue("El administrador debe poder agregar piezas en consignación", galeria.agregarPiezaEnConsignacion(testPieza, admin));
     }
 

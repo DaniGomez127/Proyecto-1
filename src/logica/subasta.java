@@ -25,29 +25,25 @@ public class subasta {
         
     }
 
-
-    public void registrarOferta(oferta oferta) {
+    public void registrarOferta(oferta nuevaOferta) {
         if (estaActiva) {
-            ofertas.add(oferta);
+            ofertas.add(nuevaOferta);
         } else {
             throw new IllegalStateException("La subasta no está activa.");
         }
     }
-    
 
     public boolean verificarValorMinimo() {
-        return ofertas.stream().anyMatch(oferta -> oferta.getValorOferta() >= valorMinimo);
+        return obtenerOfertaGanadora().map(oferta -> oferta.getValorOferta() >= valorMinimo).orElse(false);
     }
 
     public void cerrarSubasta() {
         estaActiva = false;
     }
 
-
     public Optional<oferta> obtenerOfertaGanadora() {
-        return ofertas.stream().max(Comparator.comparing(oferta::getValorOferta));
+        return ofertas.stream().max((o1, o2) -> Double.compare(o1.getValorOferta(), o2.getValorOferta()));
     }
-
 
     public String getId() {
         return id;
@@ -84,6 +80,4 @@ public class subasta {
     public double getValorMinimo() {
         return valorMinimo;
     }
-
-
 }

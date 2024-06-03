@@ -51,6 +51,13 @@ public class oferta {
         this.pieza = pieza;
     }
     
+    
+    
+   
+
+
+    
+    
 
 }
 

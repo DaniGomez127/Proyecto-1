@@ -1,0 +1,71 @@
+Transacción ID: 742, Resultado: Pago exitoso
+Transacción ID: 0f4c3a00-d157-4f8f-9b98-0a89cdf6d5b3, Resultado: Pago exitoso
+Transacción ID: 742, Resultado: Pago exitoso
+Transacción ID: 742, Resultado: Pago exitoso
+Transacción ID: 742, Resultado: Pago exitoso
+Transacción ID: 742, Resultado: Pago exitoso
+Transacción ID: 742, Resultado: Pago exitoso
+Transacción ID: 742, Resultado: Pago exitoso
+Transacción ID: 742, Resultado: Pago exitoso
+Transacción ID: dc7eec85-510f-43d9-bd97-5e7e331e87f9, Resultado: Pago exitoso
+Transacción ID: 742, Resultado: Pago exitoso
+Transacción ID: b2e43f32-30ab-4509-bd6c-527c0e243508, Resultado: Pago exitoso
+Transacción ID: 742, Resultado: Pago exitoso
+Transacción ID: 29925be9-9878-4295-b002-baa0c70f1f2d, Resultado: Pago exitoso
+Transacción ID: 742, Resultado: Pago exitoso
+Transacción ID: 4d3a71b9-f465-4588-9621-2565081a5d0d, Resultado: Pago exitoso
+Transacción ID: 742, Resultado: Pago exitoso
+Transacción ID: cdf0c78f-5ac3-47b2-80a6-7de0164f3a59, Resultado: Pago exitoso
+Transacción ID: 742, Resultado: Pago exitoso
+Transacción ID: c260a75b-04fe-4d59-9891-2c67107c2c75, Resultado: Pago fallido: tarjeta no válida
+Transacción ID: f12ec4ca-a854-469c-b19c-8326fcca4a26, Resultado: Pago fallido: tarjeta no válida
+Transacción ID: e32e21a3-3254-404a-9023-7f6b25e636e2, Resultado: Pago fallido: tarjeta no válida
+Transacción ID: 831f4b0a-85ee-4022-a2d8-0086de398138, Resultado: Pago exitoso
+Transacción ID: 011, Resultado: Pago exitoso
+Transacción ID: 041f3087-e6c6-4fe9-9458-3b09fb452cba, Resultado: Pago exitoso
+Transacción ID: 011, Resultado: Pago exitoso
+Transacción ID: c11d0528-6635-4481-8707-bb7db14f7b92, Resultado: Pago exitoso
+Transacción ID: 011, Resultado: Pago exitoso
+Transacción ID: c5a83633-9055-454d-82d1-7f1ad3485e9d, Resultado: Pago exitoso
+Transacción ID: 234, Resultado: Pago exitoso
+Transacción ID: 8849ae81-415f-45b9-9bb3-b8886cf545ee, Resultado: Pago exitoso
+Transacción ID: 234, Resultado: Pago exitoso
+Transacción ID: f7809c5a-47ce-46aa-9a9a-8f810957eafa, Resultado: Pago fallido: número de tarjeta no válido
+Transacción ID: 3944c5d0-7707-4e17-9295-301e78fd0cb2, Resultado: Pago fallido: número de tarjeta no válido
+Transacción ID: 270c688a-10d3-4be1-bc2a-adb33e8b13a0, Resultado: Pago fallido: número de tarjeta no válido
+Transacción ID: fccaf806-a2b7-44ac-9b17-8c648026d01f, Resultado: Pago fallido: número de tarjeta no válido
+Transacción ID: aa91c20c-7b95-49a0-bf93-35311a9f5418, Resultado: Pago fallido: número de tarjeta no válido
+Transacción ID: fd3a0fd6-721f-4605-bfc7-ebe6fc95c7dc, Resultado: Pago fallido: número de tarjeta no válido
+Transacción ID: f7a9aeb3-242e-4b8e-9267-53d50a7e8a6f, Resultado: Pago fallido: número de tarjeta no válido
+Transacción ID: 3ea046aa-20d2-4ac0-8151-386df97f3982, Resultado: Pago fallido: número de tarjeta no válido
+Transacción ID: 982da86f-fb7c-4f72-a457-5b60eea6347e, Resultado: Pago fallido: número de tarjeta no válido
+Transacción ID: 0defa8b9-a9eb-4415-91d8-bfdaa7d31168, Resultado: Pago fallido: número de tarjeta no válido
+Transacción ID: 528d153c-8c93-4251-a446-88eed381107a, Resultado: Pago exitoso
+Transacción ID: 131, Resultado: Pago exitoso
+Transacción ID: bf72873f-fb0a-469c-bda5-e54fa5733308, Resultado: Pago exitoso
+Transacción ID: 131, Resultado: Pago exitoso
+Transacción ID: da25f0f8-9bc7-45db-b578-af236f4279f3, Resultado: Pago exitoso
+Transacción ID: 131, Resultado: Pago exitoso
+Transacción ID: 3b9c769d-9d33-4d86-8510-77b226be9ee4, Resultado: Pago exitoso
+Transacción ID: 131, Resultado: Pago exitoso
+Transacción ID: 22c7ed72-1387-4bd3-9565-c59e3f1408d5, Resultado: Pago exitoso
+Transacción ID: 131, Resultado: Pago exitoso
+Transacción ID: f290546c-bb0e-4be2-989a-317cb3c5a81b, Resultado: Pago exitoso
+Transacción ID: 131, Resultado: Pago exitoso
+Transacción ID: adc43766-1378-4939-b891-3cb8ab729cfb, Resultado: Pago exitoso
+Transacción ID: 131, Resultado: Pago exitoso
+Transacción ID: da184a9f-3cb4-4c5e-8415-1b8df9272f33, Resultado: Pago exitoso
+Transacción ID: bd1af253-b917-40c3-ad91-4720f5d12806, Resultado: Pago exitoso
+Transacción ID: 131, Resultado: Pago exitoso
+Transacción ID: 12e52d2b-c4a3-4d35-8434-57658bbda106, Resultado: Pago exitoso
+Transacción ID: 131, Resultado: Pago exitoso
+Transacción ID: 7405fe8e-cd58-490e-8cf3-6616ba0a53c5, Resultado: Pago exitoso
+Transacción ID: 131, Resultado: Pago exitoso
+Transacción ID: 89665450-2acc-419a-8209-09335a25864b, Resultado: Pago exitoso
+Transacción ID: 131, Resultado: Pago exitoso
+Transacción ID: f9181bd4-8112-4b5f-916e-da393e747700, Resultado: Pago exitoso
+Transacción ID: 131, Resultado: Pago exitoso
+Transacción ID: 3371bca6-04f4-486d-b4e4-c2c078ee1f5f, Resultado: Pago exitoso
+Transacción ID: 784, Resultado: Pago exitoso
+Transacción ID: 5e1323f5-d351-4e81-8536-6523b6c86c04, Resultado: Pago exitoso
+Transacción ID: 784, Resultado: Pago exitoso

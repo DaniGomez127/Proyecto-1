@@ -1,0 +1,2 @@
+logica.PayUSimulada
+logica.PaypalSimulada

@@ -22,7 +22,7 @@ public class GaleriaTest {
         galeriaTest = new galeria();
         adminUser = new usuario("admin", "password", "admin@example.com", "123456789", "1234 Street", "City", "00000", "Country", false, false, true);
         nonAdminUser = new usuario("user", "password", "user@example.com", "123456789", "1234 Avenue", "City", "00000", "Country", false, true, false);
-        testPieza = new pieza("id1", 2.0, 1.5, 0.5, 20.0, "Pieza Test", true, "COD123", 2021, "Test Artist", "Descripción test", null, 0.0, "", true, "Original Owner", "2023-12-31");
+        testPieza = new pieza("id1", 2.0, 1.5, 0.5, 20.0, "Pieza Test", true, "COD123", 2021, "Test Artist", "Descripción test", null, 0.0, "", true, "Original Owner", "2023-12-31", null);
     }
 
     @Test

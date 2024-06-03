@@ -426,7 +426,7 @@ public class aplicacion {
 
         pieza nuevaPieza = new pieza(id, altura, anchura, profundidad, peso, nombre, estaEnExhibicion,
                                      codigoIdentificador, anoCreacion, autor, descripcion, null, precioVenta,
-                                     fechaVenta, enConsignacion, propietarioReal, fechaFinConsignacion);
+                                     fechaVenta, enConsignacion, propietarioReal, fechaFinConsignacion, fechaFinConsignacion);
 
         if (galeria.agregarPiezaEnConsignacion(nuevaPieza, usuarioLogueado)) {
             System.out.println("Pieza agregada correctamente en consignación.");

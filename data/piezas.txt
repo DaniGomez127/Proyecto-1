@@ -1,19 +1,30 @@
-id4,2.1,1.4,0.5,22.0,Pieza D,false,COD126,2018,Monet,Una descripción más de la pieza,1200.5,2021-04-15,true,Propietario D,2024-05-12
-id5,2.0,1.5,20.0,30.0,hola,true,cod721,2021,andres,obra maestra,30000.0,2024-06-14,true,Van Gogh,2023-04-05
-id1,2.0,1.5,0.5,20.0,Pieza Test,true,COD123,2021,Test Artist,Descripción test,0.0,,true,Original Owner,2023-12-31
-id1,2.0,1.5,0.5,20.0,Pieza Test,true,COD123,2021,Test Artist,Descripción test,0.0,,true,Original Owner,2023-12-31
-pieza1,2.0,1.0,1.0,10.0,Pieza Test,true,COD123,2021,Test Artist,Descripción test,0.0,,true,Original Owner,2023-12-31
-pieza1,2.0,1.0,1.0,10.0,Pieza Test,true,COD123,2021,Test Artist,Descripción test,0.0,,true,Original Owner,2023-12-31
-id1,2.0,1.5,0.5,20.0,Pieza Test,true,COD123,2021,Test Artist,Descripción test,0.0,,true,Original Owner,2023-12-31
-id1,2.0,1.5,0.5,20.0,Pieza Test,true,COD123,2021,Test Artist,Descripción test,0.0,,true,Original Owner,2023-12-31
-id1,2.0,1.5,0.5,20.0,Pieza Test,true,COD123,2021,Test Artist,Descripción test,0.0,,true,Original Owner,2023-12-31
-id1,2.0,1.5,0.5,20.0,Pieza Test,true,COD123,2021,Test Artist,Descripción test,0.0,,true,Original Owner,2023-12-31
-id1,2.0,1.5,0.5,20.0,Pieza Test,true,COD123,2021,Test Artist,Descripción test,0.0,,true,Original Owner,2023-12-31
-pieza1,2.0,1.0,1.0,10.0,Pieza Test,true,COD123,2021,Test Artist,Descripción test,0.0,,true,Original Owner,2023-12-31
-id1,2.0,1.5,0.5,20.0,Pieza Test,true,COD123,2021,Test Artist,Descripción test,0.0,,true,Original Owner,2023-12-31
-id1,2.0,1.5,0.5,20.0,Pieza Test,true,COD123,2021,Test Artist,Descripción test,0.0,,true,Original Owner,2023-12-31
-id1,2.0,1.5,0.5,20.0,Pieza Test,true,COD123,2021,Test Artist,Descripción test,0.0,,true,Original Owner,2023-12-31
-id1,2.0,1.5,0.5,20.0,Pieza Test,true,COD123,2021,Test Artist,Descripción test,0.0,,true,Original Owner,2023-12-31
-id1,2.0,1.5,0.5,20.0,Pieza Test,true,COD123,2021,Test Artist,Descripción test,0.0,,true,Original Owner,2023-12-31
-pieza1,2.0,1.0,1.0,10.0,Pieza Test,true,COD123,2021,Test Artist,Descripción test,0.0,,true,Original Owner,2023-12-31
-id6,2.2,3.45,43.0,50.0,cuadro,true,cod123,2004,Picasso,Obra maestra,200000.0,,false,daniel,2024-05-13
+id3,2.1,1.4,0.6,25.0,La Última Cena,false,COD125,2020,Da Vinci,Obra maestra que representa la última cena de Jesús con sus discípulos,20000.0,2024-06-02,false,raul,2024-06-18,data/imagenes/ultima_cena.png
+id4,2.3,1.6,0.5,30.0,La Noche Estrellada,false,COD126,2022,Van Gogh,Una de las pinturas más conocidas del artista,70000.0,2024-06-02,false,raul,2024-07-22,data/imagenes/noche_estrellada.png
+id5,2.0,1.7,0.5,18.0,El Grito,false,COD127,2018,Munch,Pintura expresionista que muestra una figura con una expresión de agonía,90000.0,2024-06-02,false,raul,2024-04-10,data/imagenes/el_grito.png
+id6,2.4,1.5,0.5,22.0,La Creación de Adán,true,COD128,2017,Michelangelo,Fresco que forma parte del techo de la Capilla Sixtina,1800.7,2021-09-30,true,pepe,2024-10-01,data/imagenes/creacion_de_adan.png
+id7,1.9,1.2,0.4,20.0,La Libertad Guiando al Pueblo,true,COD129,2016,Delacroix,Pintura que conmemora la Revolución de Julio en Francia,1250.45,2021-08-15,true,raul,2024-08-15,data/imagenes/libertad_guiando_pueblo.png
+id8,2.1,1.8,0.5,23.0,La Joven de la Perla,true,COD130,2020,Vermeer,Retrato de una joven con un pendiente de perla,1750.8,2021-11-11,true,raul,2024-11-11,data/imagenes/joven_perla.png
+id9,2.2,1.5,0.5,19.0,El Nacimiento de Venus,false,COD131,2021,Botticelli,Obra maestra que muestra el nacimiento de la diosa Venus,30000.0,2024-06-02,false,raul,2024-12-01,data/imagenes/nacimiento_venus.png
+id39329235,534.0,354.0,463.0,346.0,Guernica,false,id9439439,1986,Pablo Picasso,Molto bella,10000.0,31/05/2024,false,juan,05/06/2024,C:\Users\rgarc\Downloads\DPOO3\data\imagenes\guernica.png
+id10,2.3,1.6,0.5,28.0,La Persistencia de la Memoria,false,COD132,2019,Salvador Dalí,Icono del surrealismo que muestra relojes blandos derretidos,35000.0,2024-06-02,false,raul,2024-06-30,data/imagenes/persistencia_memoria.png
+id11,2.4,1.7,0.6,30.0,Las Meninas,true,COD133,2015,Velázquez,Una de las pinturas más analizadas y admiradas del arte occidental,45000.0,2021-07-14,true,pepe,2024-07-14,data/imagenes/las_meninas.png
+id12,2.0,1.5,0.4,26.0,La Escuela de Atenas,false,COD134,2016,Rafael,Representación del conocimiento en la Antigua Grecia,50000.0,2024-06-02,false,raul,2024-09-15,data/imagenes/escuela_atenas.png
+id13,2.5,1.8,0.5,27.0,El Jardín de las Delicias,false,COD135,2018,Hieronymus Bosch,Tríptico que muestra la visión del paraíso y el infierno,55000.0,2024-06-02,false,raul,2024-10-10,data/imagenes/jardin_delicias.png
+id14,2.2,1.4,0.6,22.0,La Anunciación,false,COD136,2021,Leonardo da Vinci,Escena que representa la anunciación del ángel a María,30000.0,2024-06-02,false,raul,2024-11-20,data/imagenes/anunciacion.png
+id15,2.3,1.5,0.4,24.0,El Nacimiento de Venus,true,COD137,2020,Sandro Botticelli,Obra maestra que muestra el nacimiento de la diosa Venus,32000.0,2021-09-01,true,pepe,2024-09-01,data/imagenes/nacimiento_venus2.png
+id16,2.1,1.6,0.5,23.0,La Última Cena,true,COD138,2018,Leonardo da Vinci,Obra maestra que representa la última cena de Jesús con sus discípulos,40000.0,2021-12-01,true,raul,2024-12-01,data/imagenes/ultima_cena2.png
+id17,2.4,1.7,0.6,28.0,La Primavera,false,COD139,2017,Botticelli,Una de las obras más famosas del Renacimiento,35000.0,2024-06-02,false,raul,2024-08-22,data/imagenes/primavera.png
+id18,2.3,1.8,0.5,26.0,El Rapto de Proserpina,false,COD140,2019,Bernini,Escultura barroca que muestra el rapto de Proserpina por Plutón,30000.0,2024-06-02,false,raul,2024-07-01,data/imagenes/rapto_proserpina.png
+id19,2.0,1.4,0.6,25.0,La Maja Desnuda,true,COD141,2021,Goya,Pintura que representa una mujer desnuda reclinada,37000.0,2021-06-20,true,pepe,2024-06-20,data/imagenes/maja_desnuda.png
+id20,2.5,1.7,0.4,29.0,El Tres de Mayo,false,COD142,2020,Goya,Pintura que muestra la ejecución de los patriotas españoles por el ejército francés,38000.0,2024-06-02,false,raul,2024-07-10,data/imagenes/tres_mayo.png
+id21,2.2,1.5,0.5,27.0,La Virgen de las Rocas,true,COD143,2016,Leonardo da Vinci,Obra que muestra a la Virgen María con el Niño Jesús,35000.0,2021-05-15,true,pepe,2024-05-15,data/imagenes/virgen_rocas.png
+id22,2.3,1.6,0.4,26.0,El Coloso,false,COD144,2018,Goya,Pintura que representa a un gigante sobre una colina,32000.0,2024-06-02,false,raul,2024-08-05,data/imagenes/coloso.png
+id23,2.0,1.7,0.5,28.0,Las Tres Gracias,false,COD145,2019,Rubens,Obra que muestra a las tres gracias de la mitología griega,45000.0,2024-06-02,false,raul,2024-09-30,data/imagenes/tres_gracias.png
+id24,2.4,1.8,0.6,30.0,El Juicio Final,true,COD146,2017,Michelangelo,Fresco que muestra el juicio final de las almas,50000.0,2021-07-10,true,pepe,2024-07-10,data/imagenes/juicio_final.png
+id25,2.1,1.5,0.5,24.0,La Venus del Espejo,false,COD147,2020,Velázquez,Pintura que muestra a Venus mirando un espejo,500000.0,2024-06-02,false,raul,2024-08-01,data/imagenes/venus_espejo.png
+id26,2.3,1.7,0.4,25.0,La Muerte de Marat,false,COD148,2018,David,Pintura que muestra a Marat asesinado en su bañera,40000.0,2024-06-02,false,fernando,2024-09-15,data/imagenes/muerte_marat.png
+id27,2.0,1.6,0.6,27.0,La Gioconda,false,COD149,2016,Leonardo da Vinci,La famosa pintura de Mona Lisa,300000.0,2024-06-02,false,raul,2024-09-15,data/imagenes/gioconda.png
+id28,2.4,1.5,0.5,28.0,El David,false,COD150,2019,Michelangelo,Escultura renacentista que muestra al rey David,200000.0,2024-06-02,false,raul,2024-10-01,data/imagenes/david.png
+id29,2.3,1.4,0.5,26.0,La Ronda de Noche,false,COD151,2017,Rembrandt,Obra maestra que muestra una milicia en acción,80000.0,2024-06-02,false,raul,2024-08-01,data/imagenes/ronda_noche.png
+id30,2.1,1.6,0.4,25.0,La Tempestad,false,COD152,2020,Giorgione,Pintura renacentista que muestra una escena tormentosa,50000.0,2024-06-02,false,raul,2024-07-20,data/imagenes/tempestad.png
+id80,43.0,23.0,54.0,342.0,Ultima2,false,cod4534,2024,antonio,bella,7000.0,2024-06-02,false,fernando,2024-07-02,C:\Users\Danig\Downloads\Leonardo_Da_Vinci_-_Vergine_delle_Rocce__Louvre_.png

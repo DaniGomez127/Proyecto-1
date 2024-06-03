@@ -6,7 +6,8 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="D:/JAVA/Csvoprueba/commons-csv-1.10.0/commons-csv-1.10.0.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry kind="lib" path="C:/Users/Danig/Downloads/commons-csv-1.10.0/commons-csv-1.10.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Danig/Downloads/jfreechart-1.0.19/jfreechart-1.0.19-demo.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
